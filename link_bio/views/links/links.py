@@ -10,33 +10,27 @@ def links() -> rx.Component:
         link_button(
             "Twitch",
             "Directos de lunes a viernes",
-            url="http://twitch.tv"
+            url="http://twitch.tv",
+            image="icons/twitch.svg"
         ),
         link_button(
             "YouTube",
             "Tutoriales semanales",
-            url="http://youtube.com"
+            url="http://youtube.com",
+            image="icons/youtube.svg"
         ),
         link_button(
             "Discord",
             "El chat de la comunidad",
-            url="https://discord.com/"
+            url="https://discord.com/",
+            image="icons/twitch.svg"
         ),
-        title("Cursos"),
+        title("Contacto"),
         link_button(
-            "Twitch",
-            "Directos de lunes a viernes",
-            url="http://twitch.tv"
-        ),
-        link_button(
-            "YouTube",
-            "Tutoriales semanales",
-            url="http://youtube.com"
-        ),
-        link_button(
-            "Discord",
-            "El chat de la comunidad",
-            url="https://discord.com/"
+            "Email",
+            "francisco.villalba@franvillalbaweb.es",
+            f"mailto:francisco.villalba@franvillalbaweb.es",
+            image="icons/email.svg"
         ),
         width="100%",
         spacing=Size.MEDIUM.value,
