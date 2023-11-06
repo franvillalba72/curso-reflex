@@ -9,14 +9,14 @@ def footer() -> rx.Component:
         rx.avatar(name="Francisco Villalba", size="md", src="avatar.png"),
         rx.text(
             rx.link(
-                f"© 1995 -{datetime.date.today().year} franvillalbaweb by Francisco Villalba",
+                f"© 1995 -{datetime.date.today().year} villalbadev | Francisco Villalba",
                 href="http://franvillalbaweb.es",
                 is_external=True,
                 font_size=Size.MEDIUM.value
             ),
         ),
         rx.text(
-            "BUILDING SOLUTIONS FOR THE WEB 🕸 AND DESKTOP 💻 SINCE 1995",
+            "✨ Making your dreams come true since 1995",
             font_size=Size.MEDIUM.value,
             margin_top=Size.ZERO.value,
         ),

@@ -2,6 +2,9 @@ import reflex as rx
 from enum import Enum
 from .colors import Color, TextColor
 
+STYLESHEETS = [
+    "https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap",
+]
 
 # Constants
 MAX_WIDTH = "600px"
@@ -40,8 +43,7 @@ BASE_STYLE = {
 }
 
 navbar_title_style = dict(
-    # font_family="Comfortaa-Medium",
-    font_family="monospace",
+    font_family="Comfortaa",
     font_size=Size.LARGE.value,
 )
 

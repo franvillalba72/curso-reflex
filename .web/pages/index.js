@@ -64,12 +64,12 @@ export default function Component() {
 </Fragment>
   <Box>
   <HStack sx={{"position": "sticky", "bg": "#171F26", "paddingX": "1em", "paddingY": "1em", "zIndex": "999", "top": "0"}}>
-  <Box sx={{"fontFamily": "monospace", "fontSize": "1.5em"}}>
+  <Box sx={{"fontFamily": "Comfortaa", "fontSize": "1.5em"}}>
   <Text as={`span`} sx={{"color": "#14A1F0"}}>
-  {`franvillalba`}
+  {`villalba`}
 </Text>
   <Text as={`span`} sx={{"color": "#087EC4"}}>
-  {`web`}
+  {`dev`}
 </Text>
 </Box>
 </HStack>
@@ -203,11 +203,11 @@ export default function Component() {
   <Avatar name={`Francisco Villalba`} size={`md`} src={`avatar.png`}/>
   <Text>
   <Link as={NextLink} href={`http://franvillalbaweb.es`} isExternal={true} sx={{"fontSize": ".8em", "textDecoration": "none", "_hover": {}}}>
-  {`© 1995 -2023 franvillalbaweb by Francisco Villalba`}
+  {`© 1995 -2023 villalbadev | Francisco Villalba`}
 </Link>
 </Text>
   <Text sx={{"fontSize": ".8em", "marginTop": "0px !important"}}>
-  {`BUILDING SOLUTIONS FOR THE WEB 🕸 AND DESKTOP 💻 SINCE 1995`}
+  {`✨ Making your dreams come true since 1995`}
 </Text>
 </VStack>
 </Box>
